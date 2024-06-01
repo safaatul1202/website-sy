@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.media{
+	padding: 5px 0;
+	background-color: #148F77;
+}
+.media ul li{
+	display: inline-block;
+	color: #fff;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header h1 {
+
+float: left;
+padding: 15px 0;
+color: #148F77;
+}
+header ul {
+
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #148F77;
+	color: #fff;
+
+}
+.active {
+	background-color: #148F77;
+	color: #fff;
+
+}
+.beranda {
+	height: 200px;
+	background-image: url(' ../img/.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.beranda:after {
+	content: 0;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(20, 143, 119, .6);
+}
+
+.beranda h2 {
+	color: #148F77;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #148F77;
+}
+section {
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #148F77;
+	margin-bottom: 20px;
+}
+.Profil p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	padding: 10px 0;
+}
+
+.Registrasi {
+	background-color: #f9f9f9;
+}
+.Data Pendaftaran {
+	background-color: #f9f9f9;
+}
+
+footer {
+	padding: 50px 0px 50px 0px;
+	background-color: #343a40;
+	color: #fff;
+}
+footer .layar-dalam {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer .layar-dalam div {
+	width: 20%;
+}
+footer .layar-dalam h5 {
+	margin-top: 0px;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
